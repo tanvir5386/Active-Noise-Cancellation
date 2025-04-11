@@ -36,27 +36,33 @@ This project is all about diving deep into the heart of audio signals, analyzing
 
 ## 📁 Folder Structure
 
-Active-Noise-Cancellation/ │ ├── audio_files/ # Place your .mp3 files here for processing │ ├── output/ # Where your awesome visualizations will be saved │ ├── audio_waveform_1.png │ ├── reversed_audio_waveform_1.png │ ├── merged_audio_waveform_1.png │ └── ... │ ├── .gitignore # Ignore unnecessary files ├── requirements.txt # Required dependencies for the project └── process_audio.py # The magic script that does all the processing
+Active-Noise-Cancellation/
+│
+├── audio_files/                # Input folder - Place your .mp3 files here
+├── output/                     # Output folder - Visualizations and results
+│   ├── audio_waveform_1.png
+│   ├── reversed_audio_waveform_1.png
+│   ├── merged_audio_waveform_1.png
+│   └── ...
+│
+├── src/                        # Source code folder
+│   └── process_audio.py        # Main script that processes audio
+│
+├── tests/                      # Unit tests for your scripts
+│   └── test_process_audio.py
+│
+├── docs/                       # Documentation files (optional)
+│   └── usage_guide.md
+│
+├── examples/                   # Sample .mp3 files or usage examples (optional)
+│   └── sample.mp3
+│
+├── .gitignore                  # Ignore unnecessary files and folders
+├── requirements.txt            # Required Python dependencies
+├── README.md                   # Project overview and usage instructions
+├── LICENSE                     # License information (MIT, Apache, etc.)
+└── setup.py                    # Optional: Setup script for packaging
 
-
----
-
-## 🚀 How to Run
-
-### 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Active-Noise-Cancellation.git
-cd Active-Noise-Cancellation
-
-2. Install dependencies:
-pip install -r requirements.txt
-3. Add your audio files:
-Place them in the audio_files/ folder.
-
-4. Run the script:
-python process_audio.py
-5. Check your results:
-The output will appear in the output/ folder!
 
 🖼️ Example Outputs
 Waveform Image: audio_waveform_1.png
@@ -67,5 +73,3 @@ Merged Signal Visualization: merged_audio_waveform_1.png
 
 With Active-Noise-Cancellation, dive into the world of audio analysis and let the signals speak for themselves! 🎧🔊
 
-
-Let me know if you'd like me to save this as a downloadable file (`README.md`) or add badges or licensing 
