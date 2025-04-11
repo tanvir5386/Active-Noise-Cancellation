@@ -32,37 +32,6 @@ This project is all about diving deep into the heart of audio signals, analyzing
 - 🔄 **Sound Transformations:** Reverse, merge, and experiment with the audio signal's behavior.
 - 📂 **Easy Output Management:** Automatically save all processed waveforms in a neatly organized folder.
 
----
-
-## 📁 Folder Structure
-
-Active-Noise-Cancellation/
-│
-├── audio_files/                # Input folder - Place your .mp3 files here
-├── output/                     # Output folder - Visualizations and results
-│   ├── audio_waveform_1.png
-│   ├── reversed_audio_waveform_1.png
-│   ├── merged_audio_waveform_1.png
-│   └── ...
-│
-├── src/                        # Source code folder
-│   └── process_audio.py        # Main script that processes audio
-│
-├── tests/                      # Unit tests for your scripts
-│   └── test_process_audio.py
-│
-├── docs/                       # Documentation files (optional)
-│   └── usage_guide.md
-│
-├── examples/                   # Sample .mp3 files or usage examples (optional)
-│   └── sample.mp3
-│
-├── .gitignore                  # Ignore unnecessary files and folders
-├── requirements.txt            # Required Python dependencies
-├── README.md                   # Project overview and usage instructions
-├── LICENSE                     # License information (MIT, Apache, etc.)
-└── setup.py                    # Optional: Setup script for packaging
-
 
 🖼️ Example Outputs
 Waveform Image: audio_waveform_1.png
